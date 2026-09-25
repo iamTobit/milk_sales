@@ -5,8 +5,8 @@ export default defineConfig({
     server: { entry: "server" },
   },
   vite: {
-    build: {
-      cssMinify: 'esbuild',  // override Lightning CSS default
+    nitro: {
+      preset: 'render-com', 
     },
   },
 });
